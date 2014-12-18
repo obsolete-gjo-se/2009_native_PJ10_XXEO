@@ -1,0 +1,170 @@
+* {
+margin: 0; 
+padding: 0;
+}
+body {
+font: 95% Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+background: #fff;
+text-align: center;
+}
+a {
+color: #cc0066;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+a img {
+border: 0 none;
+}
+h1, h2, h3 {
+font-family: Arial, Geneva, sans-serif;
+color: #cc0066;
+background: transparent;
+}
+h1 {
+font-size: 1.6em;
+}
+h2 {
+font-size: 1.4em;
+}
+h3 {
+font-size: 1.2em;
+}
+p, li {
+font-size: 0.80em;
+}
+p {
+line-height: 140%;
+}
+ul {
+list-style-type: square;
+}
+#container {
+position: fixed;
+top: 0;
+background-color: #FF0000;
+min-height: inherit;
+text-align: left;
+position: relative;
+width: 900px;
+color: #000;
+background: transparent;
+margin: 0 auto;
+border-left: 1px solid #333;
+border-right: 1px solid #333;
+}
+#header {
+background: #f5f5f5 url(../img/makoeye.jpg) top right no-repeat;
+border-bottom: 1px solid #333333;
+}
+#logo {
+padding: 50px 50px 50px 75px;
+}
+address {
+padding: 0 50px 20px 75px;
+font-style: normal;
+font-weight: bold;
+}
+
+#main {
+margin-top: 25px;
+}
+#content address {
+padding-left: 0;
+}
+#column {
+float: right;
+width: 416px;
+padding: 0 20px 0 0; 
+}
+#column img {
+border: 1px solid #000;
+margin: 20px 0;
+}
+#column h2 {
+margin: 0 0 10px 0;
+color: #000;
+background: transparent;
+}
+blockquote {
+color:#cc0066;
+font: bold 1.4em Arial, Helvetica, sans-serif; 
+}
+cite {
+display: block;
+color: #000;
+font-size: 70%;
+font-style: normal;
+font-weight: normal;
+}
+#content {
+margin: 0 460px 0 20px;
+}
+#content h2, #content h3 {
+margin: 15px 0;
+}
+#content p {
+margin: 10px 0;
+}
+#content ul {
+margin: 10px 25px;
+}
+#content li {
+padding: 3px 0;
+}
+
+#nav {
+position: absolute;
+top: 0;
+links: 0;
+width: 100%;
+background: #333;
+border-bottom: 1px solid #cc0066;
+}
+#nav li {
+display: inline; 
+}
+#nav a {
+text-decoration: none;
+display: block;
+float: right;
+padding: 3px 20px;
+font-weight: bold;
+line-height: 1.5em;
+color: #fff;
+background: transparent;
+}
+#nav a:hover {
+color: #fff;
+background:#cc0066; 
+}
+p.footer {
+border-top: 1px solid #333;
+font-size: 90%;
+color: #333333;
+background: #f5f5f5;
+padding: 10px;
+margin-top: 20px;
+}
+p.footer img {
+padding: 4px 20px 4px 10px;
+vertical-align: middle;
+}
+/* Klassen */
+
+.teaser {
+font-weight: bold;
+}
+.nowrap {
+white-space: nowrap;
+}
+a.pfeil {
+display: block;
+color: #cc0066;
+background: transparent url(../img/pfeil.gif) 0 0.2em no-repeat;
+padding-left: 30px;
+font-size: 125%;
+font-weight: bold;
+}

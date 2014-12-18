@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font: 95% Verdana, Arial, Helvetica, sans-serif; /* wohl auch eher in einzelteilen lösen - nicht zusammenfassen*/
+    color: #333333;
+    background-color:#FFFFFF;
+}
+/* Alle zur Platzierungssteuerung benötigten Elemenet
+#div-steuerung {
+    position: relative fixed absolute static;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 0px;
+    min-width: 0px;
+    max-width: 0px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    overflow: visible scroll hidden auto;
+    float: right, left;
+    clear: both;
+    z-index: 1;
+    display: inline-block inline block none;
+}
+*/
+#container {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 800px;
+    overflow: visible;
+    display: block;
+    margin: 10px auto;
+    color:#000000;
+    background-color:#CCCCCC;
+}
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    overflow: visible;
+    display: block;
+    margin: 0px auto;
+    color:#000000;
+    background-color: #FFFF99;
+    z-index: 2;
+}
+#content {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    display: block;
+    margin: 0px auto;
+    color:#000000;
+    background-color: #33FFFF;
+    z-index: 1;
+}
+#left {
+    width: 200px;
+    height: 500px;
+    float: left;
+    display: block;
+    margin: 0px;
+    color:#000000;
+    background-color: #FFFF00;
+    z-index: 2;
+}
+#middle {
+    margin: 0px 0px 0px 0px;
+    color:#000000;
+    background-color: #FF00FF;
+    z-index: 2;
+    float: left;
+    width: 500px;
+}
+#right {
+    width: 200px;
+    height: 500px;
+    display: block;
+    margin: 0px;
+    color:#000000;
+    background-color: #0000FF;
+    z-index: 3;
+}
+#footer {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    overflow: visible;
+    display: block;
+    margin: 0px auto;
+    color:#000000;
+    background-color: #99FF99;
+    z-index:4;
+}
+#advertleft {
+    position: absolute;
+    top: 100px;
+    left: -150px;
+    width: 100px;
+    height: 500px;
+    display: block;
+    color:#000000;
+    background-color: #99FF99;
+}
+#advertright {
+    position: absolute;
+    top: 50px;
+    right: -150px;
+    width: 100px;
+    height: 500px;
+    display: block;
+    color:#000000;
+    background-color: #99FF99;
+}
